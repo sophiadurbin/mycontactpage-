@@ -70,8 +70,17 @@ html, body {
 }
 
 .center {
+
+		width: 500px;
+		height: 200px;
+		padding: 10%;
+		margin: 100px 900px 600px 325px;
+		background: rgb(228, 219, 208);
+		border-radius: 100%;
 	
-	width: 40%;
+
+	   
+	/*width: 40%;
     min-width: 400px;
 	padding: 2%;
     margin: 100px auto;
@@ -85,6 +94,7 @@ html, body {
 	-moz-animation: fadeIn 3s;
 	-o-animation: fadeIn 3s;
 	-ms-animation: fadeIn 3s;
+
 }
 
 @keyframes fadeIn {
@@ -209,6 +219,11 @@ a{
 }
 
 a:hover{
-	color: black;
-	background: rgb(102, 68, 93);
+		color: rgb(0, 0, 0);
+		border:  rgb(107, 0, 91) solid 1px;
+		background:#fff;
+
+	
+	/*color: black;
+	background: rgb(102, 68, 93);*/
 }
